@@ -1,0 +1,23 @@
+.places__place-description {
+  margin: 26px 0 0 0;
+  font-size: 18px;
+  line-height: 1.63;
+}
+
+.places__place-description:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .places__place-description {
+    margin: 27px 16px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__place-description {
+    margin: 25px 16px 0;
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
