@@ -1,0 +1,10 @@
+.card__link {
+  align-self: end;
+  line-height: 1;
+}
+
+@media screen and (max-width: 767px) {
+  .card__link {
+    margin: 0 16px;
+  }
+}

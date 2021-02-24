@@ -2,7 +2,7 @@
   max-width: 176px;
   width: 100%;
   min-height: 52px;
-  background: url("../../../images/header__logo.svg");
+  background: url("../../../images/header__logo.svg") no-repeat;
 }
 
 @media screen and (max-width: 767px) {

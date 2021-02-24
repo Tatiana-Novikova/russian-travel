@@ -9,11 +9,12 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
-@import url(../blocks/header/__link-list/header__link-list.css);
+@import url(../blocks/header/__lang-link-active/header__lang-link_active.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image-container/lead__image-container.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -21,22 +22,22 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-
+@import url(../blocks/intro/__list-span/intro__list-span.css);
 @import url(../blocks/photo-grid/photo-grid.css);
-@import url(../blocks/photo-grid/__photos/photo-grid__photos.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/__place/places__place.css);
-@import url(../blocks/places/__place-title/places__place-title.css);
-@import url(../blocks/places/__place-description/places__place-description.css);
-@import url(../blocks/places/__place-image/places__place-image.css);
-@import url(../blocks/places/__place-link/places__place-link.css);
-@import url(../blocks/places/__place-link-adress/places__place-link-address.css);
-@import url(../blocks/places/__place-link-url/places__place-link-url.css);
+
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__image/card__image.css);
+@import url(../blocks/card/__link/card__link.css);
+@import url(../blocks/card/__link-url/card__link-url.css);
+@import url(../blocks/card/__link-adress/card__link-address.css);
+@import url(../blocks/card/__description/__description.css);
+
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__item/cover__item.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);

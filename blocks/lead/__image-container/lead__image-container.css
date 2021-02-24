@@ -1,0 +1,17 @@
+.lead__image-container {
+  margin: 0 auto;
+  max-width: calc(100% - 148px*2);
+  height: auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__image-container {
+    max-width: calc(100% - 48px*2);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__image-container {
+    max-width: 100%;
+  }
+}
