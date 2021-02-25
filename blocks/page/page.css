@@ -4,8 +4,9 @@
   background: #2A2C2F;
   color: #FFF;
   max-width: 1280px;
-  min-width: 320px;
+  min-width: 300x;
   font-family: 'Inter', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+

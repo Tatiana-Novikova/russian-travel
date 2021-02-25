@@ -1,7 +1,5 @@
 .card__description {
   margin: 26px 0 0 0;
-  font-size: 18px;
-  line-height: 1.63;
 }
 
 .card__description:first-child {
@@ -10,13 +8,13 @@
 
 @media screen and (max-width: 1023px) {
   .card__description {
-    margin: 27px 16px 0 0;
+    margin: 27px 24px 0 0;
   }
 }
 
 @media screen and (max-width: 767px) {
   .card__description {
     margin: 25px 16px 0;
-    font-size: 16px;
+    
   }
 }

@@ -2,7 +2,7 @@
   position: relative;
   min-height: 740px;
   max-width: 100%;
-  background: url(../../../images/cover__background.png) center/cover no-repeat;
+  background: url(../../../images/__background.jpg) center/cover no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
