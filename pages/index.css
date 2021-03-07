@@ -34,7 +34,7 @@
 @import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__link-url/card__link-url.css);
 @import url(../blocks/card/__link-adress/card__link-address.css);
-@import url(../blocks/card/__description/__description.css);
+@import url(../blocks/card/__description/card__description.css);
 
 
 @import url(../blocks/cover/cover.css);
