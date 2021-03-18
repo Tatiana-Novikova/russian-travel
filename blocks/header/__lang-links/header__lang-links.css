@@ -7,3 +7,9 @@
   list-style: none;
   text-align: right;
 }
+
+@media screen and (max-width: 424px) {
+  .header__lang-links {
+    flex-direction: column;
+  }
+}

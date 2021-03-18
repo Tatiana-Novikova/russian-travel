@@ -1,0 +1,5 @@
+@media screen and (max-width: 424px) {
+  .header__lang-links-item {
+    margin-bottom: 5px;
+  }
+}

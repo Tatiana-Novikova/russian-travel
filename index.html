@@ -5,14 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <script src="./scripts/index.js" defer></script>
 </head>
 <body class="page">
+  <div class="popup">
+    <div class="popup__overlay"></div>
+    <div class="popup__content">
+      <a class="popup__close-button" href="#" target="_self">+</a>
+      <h2 class="popup__title">О проекте</h2>
+      <p class="popup__text">Путешествия по России это студенческий проект третьего спринта 
+        программы веб-разработчик. Его задача - отточить навык адаптивной вёрстки и работы с Фигмой. 
+        А этот попап - кейс для отработки практики 4-го спринта.
+      </p>
+    </div>
+  </div>
   <div>
     <header class="header">
       <div class="header__logo"></div>
       <ul class="header__lang-links">
-        <li><a class="header__lang-link header__lang-link_active opacity" href="#" target="_self">Ru</a></li>
-        <li><a class="header__lang-link opacity" href="#" target="_self">En</a></li>
+        <li class="header__lang-links-item">
+          <a class="header__lang-link header__lang-link_active opacity" href="#" target="_self" id="open_popup_btn">
+            О проекте</a>
+        </li>
+        <li class="header__lang-links-item">
+          <a class="header__lang-link header__lang-link_active opacity" href="#" target="_self">Ru</a>
+        </li>
+        <li class="header__lang-links-item">
+          <a class="header__lang-link opacity" href="#" target="_self">En</a>
+        </li>
       </ul>
     </header>
     <main class="content">

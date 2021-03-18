@@ -7,10 +7,16 @@
   text-decoration: none;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 1.11;
+  }
+}
+
+@media screen and (max-width: 424px) {
+  .header__lang-link {
+    margin: 15px 0 0 0;
   }
 }
 
